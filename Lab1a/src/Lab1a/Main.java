@@ -1,19 +1,12 @@
 package Lab1a;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.FlowPane;
 import javafx.scene.control.Label;
 import javafx.scene.control.Button;
 import javafx.scene.control.Slider;
-
-import javafx.geometry.Orientation;
-import javafx.beans.value.ObservableValue;
-import javafx.beans.value.ChangeListener;
 
 public class Main extends Application{
 
@@ -125,7 +118,7 @@ public class Main extends Application{
         Scene scene = new Scene(group, 800, 300);
 
         stage.setScene(scene);
-        stage.setTitle("Slider in JavaFX");
+        stage.setTitle("Lab1a");
         stage.show();
     }
 
